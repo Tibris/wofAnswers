@@ -1,0 +1,349 @@
+@import url('https://rsms.me/inter/inter.css'); /* Inter font */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8fbfd;
+}
+
+/* header starts */
+header {
+    height: 400px;
+    background-color: #604bff;
+}
+
+.brand {
+    text-align: center;
+    padding-top: 37px;
+}
+
+.brand .domain {
+    text-align: center;
+    font-size: 26px;
+    line-height: normal;
+    color: #ffffff;
+}
+
+.brand .domain span {
+    font-weight: bold;
+}
+
+.brand p {
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    color: #ffffff;
+}
+
+.brand-description {
+    margin: 39px auto 0 auto;
+}
+
+.brand-description h2 {
+    height: 32px;
+    text-align: center;
+    font-size: 23px;
+    color: #ffffff;
+}
+
+.brand-description p {
+    width: 410px;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    padding-top: 5px;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* header ends */
+
+/*categories*/
+.white-card {
+    border-radius: 3px;
+    box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    transform: translateY(-147px);
+    -webkit-transform: translateY(-147px);
+    -moz-transform: translateY(-147px);
+}
+
+.main-div {
+    width: 54.16667%;
+    margin: auto;
+    margin-bottom: -97px;
+    z-index: 1;
+    min-height: 806px;
+}
+
+.step-1-div {
+    padding-top: 32px;
+}
+
+.step-1-div p:nth-child(1) {
+    width: 59px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #604bff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding: 2px 0;
+}
+
+.step-1-div p:nth-child(2) {
+    width: 101px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #a2aaaf;
+    text-align: center;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+#search-categories {
+    display: block;
+    width: 70.51%;
+    height: 50px;
+    margin: 20px auto 0 auto;
+    padding: 0 20px;
+    border-radius: 25px;
+    border: solid 1px #d9dfe2;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    outline: none;
+    font-size: 14px;
+}
+
+::placeholder { 
+    font-family: Inter;
+    font-size: 14px;
+    color: #7c7c7c;
+}
+
+.categories p {
+    width: 90px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #a8a8a8;
+    margin: 27px auto 15px auto;
+}
+
+.all-categories {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -webkit-inline-box;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 80.513%;
+    margin: auto;
+}
+
+.flex-item {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -webkit-inline-box;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-basis: 32.48%;
+    flex-basis: 32.48%;
+    height: 45px;
+    border-radius: 25px;
+    box-shadow: 0 1px 3px 0 rgba(96, 75, 255, 0.25);
+    background-color: #ff8726;
+    margin: 0px 0.42666% 10px 0.42666%;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#no-results-div {
+    display: none;
+}
+
+.space-div {
+    height: 59px;   /* just some blank space */
+}
+
+/* footer starts */
+footer {
+    height: 116px;
+    border-top: solid 1px #dde3e6;
+    z-index: 3;
+}
+
+.footer-container  {
+    width: 65.2777%;
+    margin: auto;
+}
+
+.disclaimer {
+    width: 60%;
+    margin-top: 21px;
+    float: left;
+}
+
+.disclaimer h2 {
+    font-size: 14px;
+    color: #7c7c7c;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.disclaimer p {
+    opacity: 0.4;
+    font-size: 14px;
+    line-height: normal;
+    color: #7c7c7c;
+}
+
+.footer-navigation {
+    width: 40%;
+    margin-top: 43px;
+    float: right;
+}
+
+.footer-navigation a {
+    float: right;
+    font-size: 14px;
+    color: #7c7c7c;
+    margin: 0px 0px 0px 20px;
+}
+/* footer ends */
+
+
+
+@media screen and (max-width: 1226px) {
+    .flex-item {
+        -webkit-flex-basis: 48%;
+        flex-basis: 48%;
+        margin: 0px 1% 10px 1%;
+    }
+
+    .main-div {
+        width: 661px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+
+    .disclaimer {
+        width: 100%;
+    }
+
+    .footer-navigation {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .footer-navigation a {
+        display: block;
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 867px) {
+    .main-div {
+        width: 80%;
+    }
+    .all-categories {
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+    .flex-item {
+        -webkit-flex-basis: 80%;
+        flex-basis: 80%;
+    }
+}
+
+@media screen and (max-width: 563px) {
+    .brand .domain {
+        font-size: 36px;
+    }
+
+    .brand p {
+        font-size: 11px;
+    }
+
+    .brand-description {
+        margin-top: 60px;
+    }
+    .brand-description h2 {
+        width: 80%;
+        margin: auto;
+        font-size: 15px;
+        height: auto;
+        text-align: left;
+    }
+
+    .brand-description p {
+        width: 80%;
+        font-size: 11px;
+        padding-top: 10px;
+        text-align: left;
+    }
+
+    .disclaimer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .main-div {
+        width: 90%;
+    }
+
+    #search-categories {
+        width: 90%;
+    }
+
+    .flex-item {
+        width: 100%;
+        height: 36px;
+        font-size: 0.8em;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 314px) {
+    .brand .domain {
+        font-size: 26px;
+    }
+
+    .all-categories a {
+        -webkit-flex-basis: 100%;
+        flex-basis: 100%;
+    }
+}
