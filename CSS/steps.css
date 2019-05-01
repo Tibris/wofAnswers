@@ -358,7 +358,7 @@ input[type=number]::-webkit-inner-spin-button {
     border-top: solid 1px #eeeeee;
 }
 
-.bottom-div a {
+.bottom-div a:nth-child(1) {
     display: block;
     margin-top: 26px;
     font-size: 14px;
@@ -367,8 +367,9 @@ input[type=number]::-webkit-inner-spin-button {
     line-height: normal;
 }
 
-.bottom-div button {
+.bottom-div a:nth-child(2) {
     height: 45px;
+    line-height: 45px;
     margin-right: 15px;
     margin-left: 19px;
     border-radius: 25px;
@@ -383,6 +384,7 @@ input[type=number]::-webkit-inner-spin-button {
     padding: 0 31px 0 31px;
     outline: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .answers-div {
